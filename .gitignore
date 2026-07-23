@@ -1,0 +1,20 @@
+# Dependency folders
+node_modules/
+
+# Next.js build outputs
+.next/
+out/
+
+# TypeScript build outputs
+dist/
+
+# Env config files
+.env
+.env.local
+
+# SQLite local databases
+*.db
+*.db-journal
+
+# Temporary run cache
+temp/
