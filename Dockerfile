@@ -26,5 +26,5 @@ EXPOSE 5000
 ENV NODE_ENV=production
 ENV PORT=5000
 
-# Launch server
-CMD ["npm", "start"]
+# Launch server with database initialization
+CMD ["sh", "-c", "npx prisma db push && npm start"]
